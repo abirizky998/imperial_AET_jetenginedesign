@@ -137,7 +137,6 @@ def performance_plot(df, design_altitude):
     ax2.set_title("Iso-SFC Contours (Green is Better)")
     fig.colorbar(contour, ax=ax2, label='SFC (kg/kWh)')
 
-
     # (Specific Power vs. SFC)
     ax3 = fig.add_subplot(2, 1, 2)
     tits = sorted(subset['TIT (K)'].unique())
